@@ -1,44 +1,16 @@
 
-.app{
-
-}
-.navbar{
- display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-
-}
-
-.navbar-logo{
-
-
-}
-
-.navbar-links{
-  font-size: 20px;
-  color: rgb(56, 15, 44);
-  cursor: pointer;
-  list-style: none;
-  height: 70%;
-display: flex;
-margin-left: 40%;
-  gap: 80px;
-
-
-
-}
 .cart-widget{
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 5px;
-
-
+  gap: 10px;
+  transition: transform 0.3s ease;
+}
+.cart-widget:hover {
+  transform: scale(1.2);
 }
 
-.item-list-container{
-font-size: 30px;
-color: blue;
-
+.num-cart{
+  font-size: 50px;
 }
+

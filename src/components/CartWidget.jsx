@@ -1,12 +1,12 @@
-import React from 'react';
-import imagenes from '../assets/img/imagenes';
+
+import {imagenes} from '../assets/imagenes'
 
 
 const CartWidget = () => {
   return (
     <div className="cart-widget">
-      <img src={imagenes.imgcarrito} alt="Carrito de compras" width="30" />
-      <span>0</span>
+      <span className='num-cart'>0</span>
+      <img src={imagenes.imgcarrito} alt="Carrito de compras" width="50" />
     </div>
   );
 };
