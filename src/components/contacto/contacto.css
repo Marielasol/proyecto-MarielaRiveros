@@ -1,0 +1,31 @@
+.ubicacion {
+  padding: 2rem;
+  background-color: #fff0f5;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.ubicacion h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #d81b60;
+}
+
+.ubicacion p {
+  font-size: 1rem;
+  color: #444;
+}
+
+.mapa {
+  margin: 1.5rem 0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.info-contacto p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+}

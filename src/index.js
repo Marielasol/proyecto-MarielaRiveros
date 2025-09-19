@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import Router from './router';
+import { CartProvider } from './context/cartContext';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.createRoot(document.getElementById('root'))
+.render(
   <React.StrictMode>
-    <App />
+   <CartProvider>
+    <Router/>
+   </CartProvider>
   </React.StrictMode>
 );
 

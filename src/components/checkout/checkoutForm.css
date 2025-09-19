@@ -1,0 +1,53 @@
+.form,
+.checkout {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff0f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.h2 {
+    text-align: center;
+    color: #d81b60;
+    margin-bottom: 1rem;
+}
+
+.form input,
+.form select,
+.form textarea {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease;
+}
+
+.form input:focus,
+.form select:focus,
+.form textarea:focus {
+    border-color: #d81b60;
+    outline: none;
+}
+
+.btn {
+  background-color: #aef1ba;
+  color: rgb(24, 23, 23);
+  border: none;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  text-align: center;
+}
+
+.checkout-form .btn:hover {
+  background-color: #d45f92;
+}

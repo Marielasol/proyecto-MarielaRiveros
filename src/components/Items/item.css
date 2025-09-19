@@ -1,0 +1,85 @@
+.card {
+display: flex;
+  flex-direction: column;
+  align-items: center;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.2s ease;
+}
+.image{
+  height: 80px;
+  width:100px;
+  
+}
+
+.btn {
+    padding: 8px 12px;
+    text-decoration: none;
+    background-color: beige;
+    font-weight: 500;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    border: 2px solid #d65188;
+    border-radius: 4px;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+
+}
+
+.counter {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  max-width: 280px;
+  margin: 0 auto;
+
+}
+
+.controls {
+    display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.detail{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+
+}
+
+.detail2{
+    margin: 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.detail img{
+    width: 600px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px
+}
+
+.success-message {
+  font-size: 1rem;
+  color: #2e7d32;
+  background-color: #e8f5e9;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 500;
+}

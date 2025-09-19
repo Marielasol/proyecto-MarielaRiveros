@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import CartWidget from '../CartWidget';
-import { imagenes } from '../../../src/assets/imagenes'
+import CartWidget from '../cart/CartWidget';
+import { imagenes } from '../../assets/img/imagenes'
 import './navbar.css'
 import { useState } from 'react';
 
@@ -16,14 +16,14 @@ const NavBar = () => {
     <nav className="navbar">
       <div className='navbar-left'>
         <Link to="/">
-        <img src={imagenes.imglogo} className="logo"  alt='logo-tienda'/>
+        <img src={imagenes.imgLogo} className="logo"  alt='logo-tienda'/>
         </Link>
         <div className='servicios-container'>
           <button onClick={toggleCategorias} className='servicios-btn'>Servicios</button>
           {mostrarCategorias && (
             <div className='categorias-dropdown'>
               <Link to="/categoria/uñas" className="categoria-btn">Uñas</Link>
-              <Link to="/categoria/pestañas" className="categoria-btn">Pestañas</Link>
+              <Link to="/categoria/mirada" className="categoria-btn">Mirada</Link>
               <Link to="/categoria/cabello" className="categoria-btn">Cabello</Link>
               <Link to="/categoria/piel" className="categoria-btn">Piel</Link>
             </div>
@@ -33,14 +33,7 @@ const NavBar = () => {
       </div>
       </div>
       <div className="navbar-right">
-        <div className="navbar-links">
-
-          <a href="#">Nuestro salón</a>
-
-
-        </div>
     
-
         <CartWidget />
       </div>
 

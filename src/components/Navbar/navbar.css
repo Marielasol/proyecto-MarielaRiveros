@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #fdf3f3;
-  padding: 1rem 2rem;
+  padding: 10px 20px;
   width: 100%;
   box-sizing: border-box;
   
@@ -13,7 +13,7 @@
 
 .logo {
   height: 80px;
-  width:80px;
+  width:100px;
 }
 
 .servicios-container{
@@ -59,19 +59,7 @@
   flex-wrap: wrap;
 }
 
-.navbar-links a {
-  font-size: 1.2rem;
-  color: rgb(56, 15, 44);
-  cursor: pointer;
-  text-decoration: none;
-  padding: 1rem 2rem;
-  transition: all 0.3s ease;
-}
 
-.navbar-links a:hover {
-   color: #d81b60;
-  transform: scale(1.2);
-}
 .servicios-btn{
   padding: 8px 12px;
   text-decoration: none;
